@@ -48,11 +48,20 @@
         tap-ms = <30>;
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        escape {
+            bindings = <&kp ESCAPE>;
+            key-positions = <28 41>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
-            display-name = "QWERTY";
+            display-name = "COLEMAN";
             bindings = <
 &tog 1          &kp Q  &kp W  &kp F     &kp P          &kp G                              &kp UP                &kp J        &kp L      &kp U              &kp Y    &kp SEMICOLON  &tog 2
 &kp TAB         &kp A  &kp R  &kp S     &kp T          &kp D                    &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp N      &kp E              &kp I    &kp O          &kp SQT
