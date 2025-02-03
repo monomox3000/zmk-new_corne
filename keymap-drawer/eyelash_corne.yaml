@@ -1,5 +1,5 @@
 layers:
-  COLEMAN:
+  COLEMAK:
   - {t: NUMBER, h: toggle}
   - Q
   - W
@@ -49,7 +49,7 @@ layers:
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-control$$
   NUMBER:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: COLEMAK, h: toggle}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -98,7 +98,7 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   SYMBOL:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: COLEMAK, h: toggle}
   - '!'
   - '@'
   - '#'
@@ -147,7 +147,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   Fn:
-  - '&studio_unlock'
+  - {t: COLEMAK, h: toggle}
   - F1
   - F2
   - F3
@@ -160,7 +160,7 @@ layers:
   - F9
   - F10
   - F11
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&studio_unlock'
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
