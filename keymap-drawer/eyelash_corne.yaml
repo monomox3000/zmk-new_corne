@@ -1,6 +1,6 @@
 layers:
   COLEMAK:
-  - {t: NUMBER, h: toggle}
+  - {t: SYMBOL, h: toggle}
   - Q
   - W
   - F
@@ -12,7 +12,7 @@ layers:
   - U
   - Y
   - {t: ;, s: ':'}
-  - {t: SYMBOL, h: toggle}
+  - {t: '-', s: _}
   - $$mdi:keyboard-tab$$
   - A
   - R
@@ -20,7 +20,7 @@ layers:
   - T
   - D
   - $$mdi:arrow-left-bold$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:apple-keyboard-control$$
   - $$mdi:arrow-right-bold$$
   - H
   - N
@@ -34,7 +34,7 @@ layers:
   - C
   - V
   - B
-  - $$mdi:keyboard-space$$
+  - {t: NUMBER, h: toggle}
   - $$mdi:arrow-down-bold$$
   - K
   - M
