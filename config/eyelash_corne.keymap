@@ -63,10 +63,10 @@
         default_layer {
             display-name = "COLEMAN";
             bindings = <
-&tog 1          &kp Q  &kp W  &kp F     &kp P          &kp G                              &kp UP                &kp J        &kp L      &kp U              &kp Y    &kp SEMICOLON  &tog 2
-&kp TAB         &kp A  &kp R  &kp S     &kp T          &kp D                    &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp N      &kp E              &kp I    &kp O          &kp SQT
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C     &kp V          &kp B       &kp SPACE              &kp DOWN              &kp K        &kp M      &kp COMMA          &kp DOT  &kp FSLH       &kp RIGHT_SHIFT
-                              &kp LGUI  &kp BACKSPACE  &kp DELETE                                               &lt 3 ENTER  &kp SPACE  &kp RIGHT_CONTROL
+&tog 1          &kp Q  &kp W  &kp F     &kp P          &kp G                                &kp UP                &kp J        &kp L      &kp U              &kp Y    &kp SEMICOLON  &tog 2
+&kp TAB         &kp A  &kp R  &kp S     &kp T          &kp D                      &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp N      &kp E              &kp I    &kp O          &kp SQT
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C     &kp V          &kp B         &kp SPACE              &kp DOWN              &kp K        &kp M      &kp COMMA          &kp DOT  &kp FSLH       &kp RIGHT_SHIFT
+                              &kp LGUI  &kp BACKSPACE  &lt 3 DELETE                                               &lt 3 ENTER  &kp SPACE  &kp RIGHT_CONTROL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
