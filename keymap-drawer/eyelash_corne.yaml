@@ -1,6 +1,6 @@
 layers:
   COLEMAK:
-  - {t: SYMBOL, h: toggle}
+  - {t: '`', h: SYMBOL, s: '~'}
   - Q
   - W
   - F
@@ -34,7 +34,7 @@ layers:
   - C
   - V
   - B
-  - {t: NUMBER, h: toggle}
+  - NUMBER
   - $$mdi:arrow-down-bold$$
   - K
   - M
@@ -71,24 +71,24 @@ layers:
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-right-bold$$
+  - RGB BRD
+  - '4'
+  - {t: '5', s: '%'}
+  - '6'
   - HOME
   - PG UP
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB OFF
   - RGB ON
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - RGB EFF
-  - $$mdi:volume-off$$
-  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - RGB EFR
   - RGB SPI
   - RGB BRI
-  - RGB BRD
+  - RGB EFF
+  - {type: held}
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - RGB EFR
+  - '1'
+  - '2'
+  - KP 3
   - END
   - PG DN
   - {t: '$$mdi:transfer$$', type: trans}
@@ -96,9 +96,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - INS
   - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - KP 0
   SYMBOL:
-  - {t: COLEMAK, h: toggle}
+  - {type: held}
   - '!'
   - '@'
   - '#'
