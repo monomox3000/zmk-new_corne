@@ -1,6 +1,6 @@
 layers:
   COLEMAK:
-  - {t: '`', h: SYMBOL, s: '~'}
+  - {t: '`', h: NUMBER, s: '~'}
   - Q
   - W
   - F
@@ -20,7 +20,7 @@ layers:
   - T
   - D
   - $$mdi:arrow-left-bold$$
-  - $$mdi:apple-keyboard-control$$
+  - LEFT WIN
   - $$mdi:arrow-right-bold$$
   - H
   - N
@@ -34,7 +34,7 @@ layers:
   - C
   - V
   - B
-  - NUMBER
+  - Fn
   - $$mdi:arrow-down-bold$$
   - K
   - M
@@ -42,14 +42,14 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
-  - LGUI
+  - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: Fn}
-  - {t: '$$mdi:keyboard-return$$', h: Fn}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: SYMBOL}
+  - {t: '$$mdi:keyboard-return$$', h: SYMBOL}
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-control$$
   NUMBER:
-  - {t: COLEMAK, h: toggle}
+  - {t: COLEMAK, h: toggle, type: held}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -83,7 +83,7 @@ layers:
   - RGB SPI
   - RGB BRI
   - RGB EFF
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - RGB EFR
   - '1'
@@ -98,7 +98,7 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - KP 0
   SYMBOL:
-  - {type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '!'
   - '@'
   - '#'
@@ -142,8 +142,8 @@ layers:
   - '~'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-space$$', type: held}
+  - {t: '$$mdi:keyboard-return$$', type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   Fn:
@@ -181,7 +181,7 @@ layers:
   - $$mdi:progress-download$$
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB5'
-  - $$mdi:volume-off$$
+  - {t: '$$mdi:volume-off$$', type: held}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -191,8 +191,8 @@ layers:
   - PAUSE BREAK
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
